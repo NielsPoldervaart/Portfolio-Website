@@ -11,4 +11,4 @@ ReactDOM.render(
 );
 
 // Learn more: https://bit.ly/CRA-vitals
-reportWebVitals(console.log);
+reportWebVitals();
