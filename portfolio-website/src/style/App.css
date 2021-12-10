@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;800;900&display=swap');
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+
+    --BG1FontSize: 15vw;
+}
+
+.Home, .Projects, .About, .Contact {
+    background-color: #121212;
+    padding: 0 100px 0 100px;
+}
+
+.Content {
+    min-height: 100vh;
+}
+
+.Home {
+    position: relative;
+}
+
+.About {
+    position: relative;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, span {
+    cursor: default;
+}
+
+.App {
+    width: 100%;
+    height: 100%;
+}
+
+/* .SmoothScrollWrapper {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+} */
+
+.Background {
+    width: 80%;
+    padding: 25% auto auto 10%;
+}
+
+.BackgroundText {
+    color: #121212;
+    text-shadow: 0 0 25px rgba(1, 1, 1, 1);
+    font-weight: 800;
+    white-space:nowrap;
+    padding-top: 75px;
+    margin-left: -17.5px;
+}
+
+.BG1 {
+    font-size: var(--BG1FontSize);
+}
+
+.BG2 {
+    font-size: var(--BG1FontSize)
+}
+
+.BG3 {
+    font-size: calc(var(--BG1FontSize) - 3vw)
+}
+
+.BG4 {
+    font-size: calc(var(--BG1FontSize) - 3vw)
+}
+
+.HomeText {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 250px;
+}
+
+.AboutText {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 300;
+    bottom: 250px;
+    width: 50%;
+    margin-top: 150px;
+}
+
+.AboutText p span {
+    font-weight: 400;
+}
+
+.Nav {
+    position: fixed;
+    right: 100px;
+    bottom: 250px;
+    z-index: 999;
+}
+
+.FullName {
+    font-weight: bold;
+}
+
+.FullName > span {
+    color: #FFFFFF;
+    transition: all .2s ease-out;
+}
+
+.FullName > span:hover {
+    color: #FF009C;
+}
+
+.InitialFirstName {
+    color: #FF009C!important;
+}
+
+.InitialLastName {
+    color: #FF009C!important;
+    margin-left: 12.5px;
+}
+
+.Footer {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 0 15px 0 #121212;
+}
+
+.ComingSoon {
+    text-align: center;
+    font-size: calc(var(--BG1FontSize) - 12vw);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}

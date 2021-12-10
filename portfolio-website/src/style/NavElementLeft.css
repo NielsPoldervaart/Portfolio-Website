@@ -1,0 +1,76 @@
+.NavElementLeft {
+    width: 150px;
+    height: 145px;
+    position: relative;
+    padding: 20px;
+}
+
+.NavTopSquareLeft {
+    background-color: transparent;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.NavLinksLeft {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.NavLinksLeft li {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.NavLinksLeft li a {
+    text-align: right;
+    margin: 0px 0px 20px 30px;
+}
+
+.NavLinkTextLeft {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.NavLinkTextActiveLeft {
+    font-weight: bold!important;
+}
+
+.NavLinkTextLeft, .NavLinkSquareLeft {
+    transition: all .15s ease-out;
+}
+
+.NavLinkTextLeft:hover {
+    color: #FF009C;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.NavLinkTextLeft:hover + .NavLinkSquareLeft {
+    background-color: #FF009C;
+    cursor: pointer;
+}
+
+.NavLinkSquareLeft {
+    width: 15px;
+    height: 15px;
+    background-color: #121212;
+    outline: 2px solid #FFFFFF;
+    outline-offset: -2px;
+    transform: rotate(45deg);
+}
+
+.NavBotSquareLeft {
+    background-color: transparent;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 12.5px;
+    left: 0;
+}

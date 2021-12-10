@@ -1,0 +1,19 @@
+.BackTopButton {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 999;
+}
+
+.CircleText {
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #FFFFFF;
+    text-transform: uppercase;
+}
+
+.Arrow {
+    color: #FFFFFF;
+    font-size: 32px;
+}
