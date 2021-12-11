@@ -80,7 +80,7 @@ function App() {
           <div className='Text AboutText'>
             <p>
               Hey! My name is <span>Niels Poldervaart</span>.<br/>
-              I am a 20 years old and live in the Netherlands. <br /><br />
+              I am currently a 20 years old and live in the Netherlands. <br /><br />
               I am a student at the Rotterdam University of Applied Sciences as a software engineer and I also have a degree in Application and Media Development.
             </p>
             <br/>
