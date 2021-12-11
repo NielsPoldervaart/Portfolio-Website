@@ -17,7 +17,7 @@ function App() {
       {/* <BackToTop /> */}
 
       <div className='Nav'>
-          <NavElementRight />
+        <NavElementRight />
       </div>
 
       <div className="Home" id='Home'>

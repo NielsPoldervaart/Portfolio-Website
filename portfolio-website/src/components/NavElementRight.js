@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll';
 import '../style/NavElementRight.css';
 
-const NavElement = () => {
+const NavElement = ({ isVisible }) => {
 
     // offset={document.getElementById('ProjectsWrapper').clientHeight + 5.5}
 

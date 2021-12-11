@@ -101,7 +101,7 @@ p, h1, h2, span {
 }
 
 .Nav {
-    position: fixed;
+    position: absolute;
     right: 100px;
     bottom: 250px;
     z-index: 999;
