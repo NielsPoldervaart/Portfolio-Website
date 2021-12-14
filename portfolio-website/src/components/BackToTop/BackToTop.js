@@ -9,8 +9,9 @@ const BackToTop = () => {
 
         const CircleText = document.querySelector('.CircleText span');
         CircleText.innerHTML = CircleText.innerText.split("").map(
-            (char, i) => `<span style="transform:rotate(${i * 10.2}deg)">${char}</span>`
+            (char, i) => `<span style="transform:rotate(${i * 21}deg)">${char}</span>`
         ).join("");
+        
         // let BackToTopHandler = () => {
         // }
 
@@ -30,7 +31,7 @@ const BackToTop = () => {
     return (
         <div className='BackTopButton'>
             <div className='CircleText'>
-                <span><span className='CircleTextDark'>Back to top</span><span>Back to top</span><span className='CircleTextDark'>Back to top</span><span>Back to top</span></span>
+                <span><span className='CircleTextDark'>Back</span>•<span>To</span>•<span>Top</span>•</span>
             </div>
             <div className='Arrow'>
                 <IoIosArrowUp title='Back to top!' />
