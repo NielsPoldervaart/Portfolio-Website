@@ -6,11 +6,15 @@
 }
 
 .CircleText {
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: normal;
     color: #FFFFFF;
-    -webkit-text-stroke: 1px #FFFFFF;
     text-transform: uppercase;
+    font-family: 'Akira Expanded';
+}
+
+.CircleTextDark {
+    font-weight: 500;
 }
 
 .Arrow {

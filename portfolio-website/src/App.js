@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <ScrollProgress />
-      {/* <BackToTop /> */}
+      <BackToTop />
 
       <div className='Nav'>
         <NavElementRight />
