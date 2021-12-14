@@ -1,12 +1,12 @@
-.WrapperAbout {
+.WrapperProjects {
     width: 100vw;
+    background-color: #121212;
     border-top: 3px solid #FFFFFF;
     border-bottom: 3px solid #FFFFFF;
-    background-color: #121212;
     margin-left: -100px;
 }
 
-.WrapperContainerAbout {
+.WrapperContainerProjects {
     position: relative;
 }
 
@@ -17,18 +17,18 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
-    -webkit-text-stroke: 4px #FFFFFF;
     letter-spacing: 0.1rem;
+    font-family: 'Akira Expanded';
 }
 
 .WrapperWordDark {
-    color: transparent;
+    font-weight: 500;
 }
 
-#WrapperTextUpperAbout {
-    margin-left: -250%;
+#WrapperTextUpperProjects {
+    margin-left: -80vw;
 }
 
-#WrapperTextLowerAbout {
-    margin-left: -5%;
+#WrapperTextLowerProjects {
+    margin-left: -5vw;
 }

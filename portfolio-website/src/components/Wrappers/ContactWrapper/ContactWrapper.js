@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import '../../style/Wrappers/ContactWrapper.css';
+import './ContactWrapper.css';
 
 const ContactWrapper = () => {
 

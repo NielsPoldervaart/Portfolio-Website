@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import ScrambleText from './components/ScrambleText';
-import NavElementRight from './components/NavElementRight.js';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import ScrollProgress from './components/ScrollProgress';
-import ProjectsWrapper from './components/Wrappers/ProjectsWrapper';
-import AboutWrapper from './components/Wrappers/AboutWrapper';
-import ContactWrapper from './components/Wrappers/ContactWrapper';
-// import BackToTop from './components/BackToTop';
+import ScrambleText from './components/ScrambleText/ScrambleText';
+import NavElementRight from './components/NavElements/NavElementRight/NavElementRight';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import ScrollProgress from './components/ScrollProgress/ScrollProgress';
+import ProjectsWrapper from './components/Wrappers/ProjectsWrapper/ProjectsWrapper';
+import AboutWrapper from './components/Wrappers/AboutWrapper/AboutWrapper';
+import ContactWrapper from './components/Wrappers/ContactWrapper/ContactWrapper';
+import BackToTop from './components/BackToTop/BackToTop';
 import './style/App.css';
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
                                             <span>i</span>
                                             <span>e</span>
                                             <span>l</span>
-                                            <span>s</span> 
+                                            <span>s</span>
                 <span className="InitialLastName">P</span>
                                             <span>o</span>
                                             <span>l</span>

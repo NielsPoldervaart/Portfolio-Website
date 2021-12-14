@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import '../../style/Wrappers/ProjectsWrapper.css';
+import './ProjectsWrapper.css';
 
 const ProjectsWrapper = () => {
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll';
-import '../style/NavElementRight.css';
+import './NavElementRight.css';
 
 const NavElement = ({ isVisible }) => {
 

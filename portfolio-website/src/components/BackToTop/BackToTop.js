@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoIosArrowUp } from 'react-icons/io';
 // import CircleType from `circletype`;
-import '../style/BackToTop.css';
+import './BackToTop.css';
 
 const BackToTop = () => {
     return (

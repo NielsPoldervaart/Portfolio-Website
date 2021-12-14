@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;800;900&display=swap');
 
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url('../fonts/Akira/AkiraExpanded.woff2') format('woff2'),
+        url('../fonts/Akira/AkiraExpanded.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url('../fonts/Akira/AkiraExpanded-Outline.woff2') format('woff2'),
+        url('../fonts/Akira/AkiraExpanded-Outline.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url('../fonts/Akira/AkiraExpanded-Bold.woff2') format('woff2'),
+        url('../fonts/Akira/AkiraExpanded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     font-family: 'Montserrat', sans-serif;
 
@@ -61,6 +88,7 @@ p, h1, h2, span {
     white-space:nowrap;
     padding-top: 75px;
     margin-left: -17.5px;
+    font-family: 'Akira Expanded';
 }
 
 .BG1 {

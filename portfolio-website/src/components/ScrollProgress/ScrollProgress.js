@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import '../style/ScrollProgress.css';
+import './ScrollProgress.css';
 
 const ScrollProgress = () => {
 

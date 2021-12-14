@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll';
 import { FaLinkedinIn,FaGithub } from 'react-icons/fa';
 import { IoIosMail } from 'react-icons/io';
-import '../style/Header.css';
+import './Header.css';
 
 const Header = () => {
     return (
