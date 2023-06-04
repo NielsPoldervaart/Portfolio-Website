@@ -1,17 +1,43 @@
 @font-face {
     font-family: 'Akira Expanded';
-    src: url('../fonts/Akira/AkiraExpanded.woff2') format('woff2'),
-        url('../fonts/Akira/AkiraExpanded.woff') format('woff');
+    src: url('/fonts/AkiraExpanded.woff2') format('woff2'),
+        url('/fonts/AkiraExpanded.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Akira Expanded Outline';
-    src: url('../fonts/Akira/AkiraExpanded-Outline.woff2') format('woff2'),
-        url('../fonts/Akira/AkiraExpanded-Outline.woff') format('woff');
+    src: url('/fonts/AkiraExpanded-Outline.woff2') format('woff2'),
+        url('/fonts/AkiraExpanded-Outline.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px; 
+}
+
+body, html {
+    background-color: #121212;
+    color: #e1e1e1;
+    font-size: 18px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.content .title {
+    color: #e1e1e1;
+    font-weight: 900;
+    font-size: 72px; 
 }
 
 .ComingSoonNml {
@@ -20,4 +46,14 @@
 
 .ComingSoonOtl {
     font-family: 'Akira Expanded Outline';
+}
+
+@media (max-width: 768px) {
+    .content {
+      padding: 15px;
+    }
+
+    .content .title {
+      font-size: 48px; 
+    }
 }
